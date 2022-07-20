@@ -4,7 +4,7 @@
     <div class="row">
     <router-link class="col-lg-4 col-md-4" to="/Home">Home</router-link> 
     <router-link class="col-lg-4 col-md-4" to="/about">About</router-link>
-    <router-link class="col-lg-4 col-md-4" to="/Projects">Projects</router-link>
+    <router-link class="col-lg-4 col-md-4" to="/Projects">Projects1</router-link>
     </div>
   </nav>
   </div>
