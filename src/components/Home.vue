@@ -2,18 +2,18 @@
 <br>
 <br>
 <br>
-  
+
   <div>
 <h1 class="text-center mt-5">Im Raaid, Aspiring Web Developer</h1>
 </div>
  <div class="text-center display-4 text-danger mt-5">
             <i class="fa-solid fa-code fa-beat" ></i>
             </div>
-<div>
- <button class="custom-btn btn-2 text-center mb-1">Take a tour!</button>
+<div class="HomeBtn">
+ <router-link to="/about"><button class="custom-btn btn-2 text-center mb-1">Take a tour!</button></router-link>
 </div>
 
-    
+
 </template>
 <script>
 //  methods:{
@@ -36,9 +36,10 @@ body, html {
   width: 100%;
   min-height: 100vh;
   overflow-x: hidden;
+  background-image: url(https://i.postimg.cc/D0CjkWsQ/62d943579008e.jpg);
 }
 body {
- background-image: url(https://i.postimg.cc/T1gnR51f/Greek-Bg.jpg);
+ background-image: url(https://i.postimg.cc/D0CjkWsQ/62d943579008e.jpg);
  background-attachment: fixed;
     display: flex;
     flex: wrap;
@@ -51,7 +52,14 @@ h1{
     color: #000; /* Fallback for older browsers */
     color: rgba(112, 0, 0, 0.5);
 
-    font-size: 98pt;
+    font-size: 80pt;
+
+}
+.HomeBtn{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
 
 }
 
@@ -61,7 +69,7 @@ h1{
   text-align: center;
 }
 button {
-  margin: 150px;
+margin: 0px;
 }
 .custom-btn {
   padding: 10px 25px;
@@ -105,8 +113,6 @@ button {
 }
 
 </style>
-
-
 
 
 

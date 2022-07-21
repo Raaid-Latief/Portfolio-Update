@@ -15,8 +15,8 @@
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered ">
-    <div class="modal-content">
+  <div class="modal-dialog">
+    <div class="modal-content text-center">
       <div class="modal-body">
     <!--CONTACT-->
 <!-- <section id="contact" class="contact">
@@ -98,9 +98,9 @@
       
     </div>
 	</section> -->
-  <div>
-    <h3 class="contact-head text-center">Contact Me!</h3>
-    <div>
+  <div class="text-center">
+    <h3 class="contact-head text-center p-2">Contact Me!</h3>
+    <div class="p-3">
           <form 
             action="https://formspree.io/f/xeqnrenb"
             method="POST" class="form">
@@ -149,7 +149,7 @@
        
 
 
-            <div class="contact-btn row">
+            <div class="contact-btn row p-3">
                 <div class="col-md-6">
                 <button type="submit" class="btn btn-outline-success col-lg-6" target="_blank">Send</button>
            </div>
@@ -197,13 +197,16 @@ body{
 .my-float{
 	margin-top:22px;
 }
-
+.modal{
+    left: 31%;
+}
 .modal-header1{
     border: 5px;
 }
 .modal-content1{
  background-color: rgb(0, 0, 0);
  border: 4px;
+ padding: 16px;
 }
 .modal-footer1{
     border: 5px;
@@ -213,10 +216,11 @@ body{
     display: flex;
 align-items: center;
 justify-content: center;
+padding-left: 70px;
 }
 #contact{
     background-color: black; 
-    padding: 50px;
+    /* padding: 50px; */
 }
 
 

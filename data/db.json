@@ -1,0 +1,19 @@
+{ "projects": [
+    {
+      "id": 1,
+      "title": "BMI",
+      "img": "",
+      "info": "fhfhie",
+      "Linkedin": "dded",
+      "Github": "dsdsds"
+    },
+    {
+        "id": 2,
+        "title": "Hello",
+        "img": "",
+        "info": "fhfhie",
+        "Linkedin": "dded",
+      "Github": "dsdsds"
+    }    
+]
+}

@@ -5,28 +5,71 @@
 <br>
 <br>
 <div>
-  <h1>This is me</h1>
-<!-- about me -->
- <section id="about-me">
-			<div class="container3">
+  <h1 class="aboutHead">This is me</h1>
+
+  <div>		
+		<section id="about-me">
+			<div class="container1">
 				<div class="row">
 					<div class="col-md-12">
 						<div id="about-me-box">
 							<div class="row">
 								<div class="col-md-6 col-xs-12">
-									<img class="max-width-" src="http://res.cloudinary.com/dc7s2okmx/image/upload/c_scale,h_400/v1515899540/photo-1479936343636-73cdc5aae0c3_zspukv.jpg" />
+									<img class="raaid max-width-xs" src="https://i.postimg.cc/2SRFKFLd/Raaid-4-removebg-preview.png" />
 								</div><!-- end col-md-7 -->
 								<div class="col-md-6 col-xs-12">
-									<div class="text-center"><h1 class="MeHead">About Me</h1></div>
-									<p>Hi! My name is Karina and this is Check This Out.This personal review blog is filled with all my favoites. From movies to bucket list ideas to random suggestions for you. This is my personal taste so I can confirm that all the suggestions made are the best suggestions in the entire universe! Well... at least to me they are. Have fun looking around. I hope you find something worth enjoying. </p>
-								</div><!-- end col-md-5-->
+									<div class="text-center"><h1 class="aboutMeHead">About Me</h1></div>
+									<p class="aboutMe">I'm a hard-working and passionate person. I love seeing progress, and if I am committed to something, I make sure to go all out. I'm not afraid of failure because there's always room to improve. I am gentle and always willing to advise as I love seeing people succeed. 
+    Since I was a toddler, I have always been fascinated by technology and video games. My dream job is to work as a developer. I've always been curious about it and I always like to learn more about it. I did an IT learnership last year and had to drop out as I preferred to be the one developing the websites. This motivated me to pursue this field of work.</p>
+								
+
+                        <!-- Passions -->
+<section id="creative" class="creative">
+    <div class="containerPassions p-5 text-center">
+        <h2 class="text-center passions-head"  data-aos="fade-down" data-aos-once="true" data-aos-duration="800">My Passions</h2>
+        <p class="text-center mb-5" data-aos="fade-down" data-aos-once="true" data-aos-duration="1200">The passions that keep me going</p>
+     
+    <div class="row">
+      <div class="col-lg-3 col-md-12 col-sml-12 p-3" data-aos="fade-right" data-aos-duration="1400">
+        <i class="fa-solid fa-gamepad fa-4x"></i>
+        <h5 class="passions p-2">Videogames and Tech</h5>
+        <p class="passions1">Gaming sparked my love for technology. It was only right that I pursued my passion for technology by learning to code. </p>
+      </div>
+
+
+      <div class="col-lg-3 col-md-12 col-sml-12 p-3" data-aos="fade-right" data-aos-duration="2200">
+        <i class="fa-solid fa-headphones fa-4x"></i>
+        <h5 class="passions p-2">Music</h5>
+        <p class="passions1">Music makes Mondays amazing.</p>
+      </div>
+
+      <div class="col-lg-3 col-md-12 col-sml-12 p-3" data-aos="fade-right" data-aos-duration="3000">
+        <i class="fa-solid fa-dumbbell fa-4x"></i>
+        <h5 class="passions p-2">Bodybuilding and Powerlifting</h5>
+        <p class="passions1">"It is a shame for a man to grow old without seeing the beauty and strength of which his body is capable.”- Socrates</p>
+      </div>
+
+      <div class="col-lg-3 col-md-12 col-sml-12 p-3" data-aos="fade-right" data-aos-duration="5500">
+        <i class="fa-regular fa-pen-to-square fa-4x"></i>
+        <h5 class="passions p-2">Poetry and Writing</h5>
+        <p class="passions1">Languages are they keystones to communication. If the intricacies of words we use everyday do not interest you, you must be a mute.</p>
+      </div>
+
+    </div>   
+    </div>
+</section>
+                        
+                        </div><!-- end col-md-5-->
 							</div><!--end row -->
 						</div><!-- end about-me-box -->
 					</div><!-- end col-md-12-->
 				</div><!-- end row-->
 			</div><!-- end container -->
 		</section>
-<div>
+		</div>
+
+
+<!-- Start of resume -->
 <h1>My <span>Resume</span></h1>
 
 
@@ -35,50 +78,43 @@
    <div class="timeline-block timeline-block-right">
       <div class="marker"></div>
       <div class="timeline-content">
-         <h3>First Year</h3>
-         <span>Some work experience</span>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+         <h3>2016 - 2020</h3>
+         <span>Highschool</span>
+         <p class="aboutMe">Passed Matric in 2020, the height of the pandemic, with a Bachelors Pass. Attended Highschool at Claremont Highschool.</p>
       </div>
    </div>
 
    <div class="timeline-block timeline-block-left">
       <div class="marker"></div>
       <div class="timeline-content">
-         <h3>Seconed Year</h3>
-         <span>Some work experience</span>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+         <h3>2021 - 2022</h3>
+         <span>Pointer South Africa</span>
+         <p>Did an internship at Pointer SA, a vehicle tracking company. Work included soldering and assembling products involved in vehicle tracking. Working with databases and excel spreadsheets. Stock taking and packaging and sending off said stock.</p>
       </div>
    </div>
 
    <div class="timeline-block timeline-block-right">
       <div class="marker"></div>
       <div class="timeline-content">
-         <h3>Third Year</h3>
-         <span>Some work experience</span>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+         <h3>2022 - Present</h3>
+         <span>Savio Lifechoices Academy</span>
+         <p>Currently doing a 1 year Fullstack development course at Life Choices Academy</p>
       </div>
    </div>
+
+  
 
    <div class="timeline-block timeline-block-left">
       <div class="marker"></div>
       <div class="timeline-content">
-         <h3>Fourth Year</h3>
-         <span>Some work experience</span>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
-      </div>
-   </div>
-
-   <div class="timeline-block timeline-block-right">
-      <div class="marker"></div>
-      <div class="timeline-content">
-         <h3>Fifth Year</h3>
-         <span>Some work experience</span>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate.</p>
+         <h3>Personal Achievments</h3>
+         <span>Notable achievemts</span>
+         <p>110KG bench press and 175KG squat, Completed basics of UX/UI Google Design Certificate. Prefect and class rep in Grade 12 in Highschool</p>
       </div>
    </div>
 </div>
 </div>
-
+ 
 <!-- Testimmonial Slider -->
 <div>
     <section class="testimonial text-center">
@@ -93,35 +129,35 @@
                     <div class="carousel-item active">
                         <div class="testimonial4_slide">
                             <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p class="testfont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <h4>Client 1</h4>
+                            <p class="testfont">I see a lot of potential in Raaid as a software developer. He likes to participate in class or help his peers with the work whenever he can. I'm always happy to see him focus on coding. He applies the concepts he knows quite well through his projects. Raaid is a fast learner, so I expect to continue to see improvement with his coding skills."</p>
+                            <h4>- Jason Wandrag, Lecturer</h4>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" /><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <h4>Client 2</h4>
+                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" /><p>"Raaid has an insane work ethic and never fails to impress. He goes to great lengths to ensure his projects are up to par and delivers great work."</p>
+                            <h4>- Yaseen Davids, Student Lecturer</h4>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <div class="testimonial4_slide">
-                            <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p class="testfont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <h4>Client 3</h4>
+                            <img src="https://i.postimg.cc/prf16zFG/Live-1-1-removebg-preview-min.png" class="img-circle img-responsive" />
+                            <p class="testfont">"A great team player with a fast learning mindset , goal oriented not only in Web Development but also in other industries and a firm believer in self development hence the interest in the Health & Wellness industry . Aspiring Full Stack Developer that is not only great to work with but can be trusted to work alone"</p>
+                            <h4>- Live Maweni, Colleague</h4>
                         </div>
                     </div>
                      <div class="carousel-item">
                         <div class="testimonial4_slide">
                             <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p class="testfont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <h4>Client 4</h4>
+                            <p class="testfont">"Raaid Abdullatief stay's consistent with working hard under pressure and he manages his time sufficiently. He is very determined and puts twice as much effort into his work to achieve his goals."</p>
+                            <h4>- Zoe Van Der Schyff</h4>
                         </div>
                     </div>
                      <div class="carousel-item">
                         <div class="testimonial4_slide">
                             <img src="https://i.ibb.co/8x9xK4H/team.jpg" class="img-circle img-responsive" />
-                            <p class="testfont">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
-                            <h4>Client 5</h4>
+                            <p class="testfont">Raaid is wise and honest person. He loves his work.  He put more effort to his work.  He doesn't hesitate to assist you."</p>
+                            <h4>Lunga Booi</h4>
                         </div>
                     </div>
                      <div class="carousel-item">
@@ -145,7 +181,7 @@
     
 
 </div>
-    </div>
+    
 </template>
 
 <script>
@@ -156,7 +192,51 @@ name: "About",
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style scoped>
+
+/* About me box */
+.aboutHead{
+  font-family: 'Playfair Display', serif;
+    color: #000; 
+    color: rgba(112, 0, 0, 0.5);
+
+    font-size: 80pt;
+}
+#about-me-box {
+	margin: 50px 0;
+	background-color: #fff; 
+	box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.2);
+	display: block;
+	padding: 0 10px 0 0;
+   /* background-image: url(https://i.postimg.cc/qRH7fwdr/pngtree-greece-key-border-vector-image-340799.jpg); */
+   background-image: fixed;
+}
+#check-this-out-box {
+	padding: 10px; 
+	border: 1px solid #ccc;
+	border-radius: 6px;
+	font-size: 14px;
+}
+.aboutMe{
+   font-size: 700;
+   color: rgb(0, 0, 0);
+}
+.aboutMeHead{
+  font-size: 900;
+}
+.raaid {
+	width: 70%;	
+   padding-left: 70px;
+   }
+.passions{
+   font-size: 14px;
+}
+.passions1{
+font-size: 12px;
+}
+
+
+
 
 h3 {
   margin: 40px 0 0;
@@ -272,7 +352,7 @@ h1 span {
    border: 2px solid #F5F7FA;
    background: #4FC1E9;
    margin-top: 10px;
-   z-index: 9999
+   z-index: 1
 }
 
 .timeline-content {
