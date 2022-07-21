@@ -230,11 +230,19 @@
 </script>
 <style scoped>
 html,body {
-	 padding: 50px 0px;
+
 	 background-color: rgba(0, 0, 0, 0.7);
+      overflow-x: hidden;
+}body {
+    overflow-x: hidden !important;
+}
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
 }
  * {
 	 transition: all 0.7s cubic-bezier(0.25, 0.8, 0.25, 1);
+
 }
  h1 {
 	 display: block;

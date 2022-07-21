@@ -209,6 +209,9 @@ export default {
     .navbar-container input[type="checkbox"]:checked ~ .logo{
         display: none;
     }
+    .logo{
+  display: none;
+    }
 }
 
 
